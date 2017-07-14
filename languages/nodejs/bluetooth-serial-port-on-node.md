@@ -1,5 +1,7 @@
 # Bluetooth Serial Port on Node.js
 
+> A guide to setting up and installing the *bluetooth-serial-port* module for Node.js
+
 ## Installation on Raspbian
 
 ### Prerequisites

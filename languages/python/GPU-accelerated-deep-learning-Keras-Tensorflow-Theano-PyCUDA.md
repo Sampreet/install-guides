@@ -1,7 +1,5 @@
 # GPU-ACCELERATED DEEP LEARNING (Keras, Theano, PyCUDA, Tensorflow)
 
-![PyPI](https://img.shields.io/pypi/pyversions/Django.svg?style=flat-square)
-
 > A guide to installing the deep learning toolkits for Python
 
 ## Installation on Windows
