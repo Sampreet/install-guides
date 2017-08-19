@@ -144,3 +144,13 @@ btServer.on('failure', function (err) {
     console.log('connection failed');
 });
 ```
+
+## Common Issues and Workarounds
+
+### SDP Connection Error
+
+The error ```Cannot connect to SDP Daemon``` can be solved by changing the permissions to the ```/var/run/sdp``` folder. This can be done on a linux system by running:
+
+```
+sudo chmod 777 /var/run/sdp
+```
