@@ -40,7 +40,7 @@ Select ```Other Linux (64-bit)``` or ```Other Linux (32-bit)``` in the ```Versio
 
 The dialog should resemble something like this:
 
-![Name and Operating System](https://github.com/Sampreet/install-guides/raw/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-step-1.PNG "Creating the Virtual Machine: Step 1")
+![Name and Operating System](https://raw.githubusercontent.com/Sampreet/install-guides/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-step-1.PNG "Creating the Virtual Machine: Step 1")
 
 Click ```Next```.
 
@@ -52,7 +52,7 @@ Use the slider or the entry box to select a suitable amount RAM to allocate for 
 
 The dialog should resemble something like this:
 
-![Memory Size](https://github.com/Sampreet/install-guides/raw/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-part-2.PNG "Creating the Virtual Machine: Step 2")
+![Memory Size](https://raw.githubusercontent.com/Sampreet/install-guides/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-step-2.PNG "Creating the Virtual Machine: Step 2")
 
 Click ```Next```.
 
@@ -60,27 +60,27 @@ Click ```Next```.
 
 Select the ```Create a virtual hard disk now``` option in the dialog.
 
-![Hard Disk](https://github.com/Sampreet/install-guides/raw/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-part-3-1.PNG "Creating the Virtual Machine: Step 3.1")
+![Hard Disk](https://raw.githubusercontent.com/Sampreet/install-guides/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-step-3-1.PNG "Creating the Virtual Machine: Step 3.1")
 
 Click ```Create```. A new dialog appears for creation of a new virtual hard disk.
 
 Select the ```VDI (VirtualBox Disk Image)``` option.
 
-![Hard Disk File Type](https://github.com/Sampreet/install-guides/raw/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-part-3-2.PNG "Creating the Virtual Machine: Step 3.2")
+![Hard Disk File Type](https://raw.githubusercontent.com/Sampreet/install-guides/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-step-3-2.PNG "Creating the Virtual Machine: Step 3.2")
 
 Click ```Next```. On the storage growth type prompt, select the ```Dynamically allocated``` option.
 
-![Storage on Physical Hard Disk](https://github.com/Sampreet/install-guides/raw/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-part-3-3.PNG "Creating the Virtual Machine: Step 3.3")
+![Storage on Physical Hard Disk](https://raw.githubusercontent.com/Sampreet/install-guides/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-step-3-3.PNG "Creating the Virtual Machine: Step 3.3")
 
 Click ```Next```. On the final dialog for the file name and size settings, add a suitable name (preferably the name of the virtual machine) for the virtual hard disk and slide/enter the size of the virtual hard disk.
 
 ***Note**: To avoid storage memory problems while running Remix OS, it is highly recommended to set the virtual hard disk size above 8.00 GB.*
 
-![File Location and Size](https://github.com/Sampreet/install-guides/raw/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-part-3-4.PNG "Creating the Virtual Machine: Step 3.4")
+![File Location and Size](https://raw.githubusercontent.com/Sampreet/install-guides/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-step-3-4.PNG "Creating the Virtual Machine: Step 3.4")
 
 Finally, click ```Create```.
 
 The *VirtualBox Manager* will show the details of the created virtual machine beside its name and will resemble something like this:
 
-![Virtual Machine Details](https://github.com/Sampreet/install-guides/raw/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-part-4.PNG "Creating the Virtual Machine: Step 4")
+![Virtual Machine Details](https://raw.githubusercontent.com/Sampreet/install-guides/master/virtual-machines/remixos/screenshots/remixos-virtualbox-createvm-step-4.PNG "Creating the Virtual Machine: Step 4")
 
