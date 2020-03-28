@@ -2,18 +2,18 @@
 
 > A guide for setting up the LaTeX environment inside Visual Studio Code.
 
-## Installation
+## Installation on Windows/Linux/MacOSX
 
 ### Visual Studio Code
 
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/Microsoft/vscode?style=flat-square)](https://code.visualstudio.com)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/Microsoft/vscode?style=flat-square)](https://github.com/microsoft/vscode)
 ![GitHub](https://img.shields.io/github/license/Microsoft/vscode?style=flat-square)
 
-*Visual Studio Code* (VSCode) is an open-source, highly-customizable and versatile source-code editor developed by Microsoft which supports debugging, version control, syntax highlighting, intelligent code completion, snippets, and code refactoring. Download the appropriate setup file for your operating system (Windows/Linux/macOS) from the [official page](https://code.visualstudio.com/download) and install. That's it!
+*Visual Studio Code* (VSCode) is an open-source, highly-customizable and versatile source-code editor developed by Microsoft which supports debugging, version control, syntax highlighting, intelligent code completion, snippets, and code refactoring. Download the appropriate setup file for your operating system (Windows/Linux/MacOSX) from the [official page](https://code.visualstudio.com/download) and install. That's it!
 
 ### LaTeX Workshop 
 
-[![GitHub package.json version](https://img.shields.io/github/package-json/v/James-Yu/LaTeX-Workshop?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/James-Yu/LaTeX-Workshop?style=flat-square)](https://github.com/James-Yu/LaTeX-Workshop)
 ![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/i/James-Yu.latex-workshop?style=flat-square)
 ![GitHub](https://img.shields.io/github/license/James-Yu/LaTeX-Workshop?style=flat-square)
 

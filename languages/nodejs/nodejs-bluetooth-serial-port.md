@@ -1,20 +1,38 @@
-# Bluetooth Serial Port on Node.js
+# Node.js Bluetooth Serial Port (Deprecated)
 
-> A guide to setting up and installing the *bluetooth-serial-port* module for Node.js
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/eelcocramer/node-bluetooth-serial-port?style=flat-square)](https://github.com/eelcocramer/node-bluetooth-serial-port)
 
-## Installation on Raspbian
+> A guide to setting up and installing the bluetooth-serial-port module for Node.js.
 
-### Prerequisites
+*bluetooth-serial-port* is a node module that enables communication over Bluetooth serial port with devices running Node.js.
 
-#### Node.js and NPM
+## Installation 
 
-A complete guide for setting up an ssh environment on the Raspberry Pi 3 can be found in [The DaveJ's blog](http://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/). 
+### On Raspbian
 
-Once SSH has been set up, install Node.js and NPM by following the steps mentioned in [here](https://github.com/Sampreet/install-guides/blob/master/languages/nodejs/nodejs-npm.md). Installation of the LTS version of Node.js, namely, v6.x.x, is recommended.
+#### Node.js and Node Package Manager
 
-#### Python 2.x
+[![npm](https://img.shields.io/npm/v/node?label=node&style=flat-square)](https://github.com/nodejs/node)
+[![npm](https://img.shields.io/npm/v/npm?style=flat-square)](https://github.com/npm/npm)
 
-Python 2.x can be installed using Miniconda package from Continuum Analytics. The installation procedure on Raspbian can be found [here](https://github.com/Sampreet/install-guides/blob/master/languages/python/anaconda-miniconda-python.md).
+*Node.js* is an open-source, cross-platform, JavaScript runtime environment used to write command line tools and server-side scripts.
+
+*Node Package Manager* (NPM) is the package manager for the JavaScript programming language.
+
+A complete installation guide for Node.js and Node Package Manager is available in [this link](https://github.com/Sampreet/install-guides/blob/master/languages/nodejs/nodejs-npm.md).
+
+***Note: ```Node.js 13+``` is not supported.***
+
+#### Python via Anaconda/Miniconda Distribution
+
+[![Conda](https://img.shields.io/conda/v/conda-forge/python?style=flat-square)](https://github.com/python/cpython)
+![Conda](https://img.shields.io/conda/dn/conda-forge/python?style=flat-square)
+
+*Python* is an interpreted, high-level, general-purpose language supporting object-oriented programming with more emphasis on code-readibility and extensibility. 
+
+A complete installation guide for Python via the Anaconda/Miniconda Distribution is available in [this link](https://github.com/Sampreet/install-guides/blob/master/languages/python/python-anaconda-miniconda.md).
+
+***Note: ```Python 2.x``` needs to be installed specifically.***
 
 #### GCC and G++
 
@@ -31,14 +49,13 @@ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 50
 sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-4.8 50
 ```
 
-
 Alternatively, install the development tools by running:
 
 ```
 sudo apt-get install build-essentials
 ```
 
-### Configuring Bluetooth
+#### Build Tools
 
 Install the build tools and bluetooth development packages by running:
 
@@ -66,9 +83,9 @@ sudo systemctl restart bluetooth
 sudo chmod 777 /var/run/sdp
 ```
 
-### Module Installation
+#### Bluetooth Serial Port
 
-To install the ***bluetooth-serial-port*** module inside a Node.js application, run:
+To install the ```bluetooth-serial-port``` module inside a Node.js application, run:
 
 ```
 npm install bluetooth-serial-port
@@ -76,7 +93,11 @@ npm install bluetooth-serial-port
 
 The modules will be configured and built using ```node-gyp``` available through npm.
 
-## Client-side Usage
+## Testing
+
+### On Raspbian
+
+#### Client-side Usage
 
 ```javascript
 var bluetooth = require('bluetooth-serial-port'),
@@ -114,7 +135,7 @@ btSerial.on('found', function (address, name) {
 btSerial.inquire();
 ```
 
-## Server-side Usage
+#### Server-side Usage
 
 ```javascript
 var bluetooth = require('bluetooth-serial-port'),
@@ -145,7 +166,7 @@ btServer.on('failure', function (err) {
 });
 ```
 
-## Common Issues and Workarounds
+## Issues and Workarounds
 
 ### SDP Connection Error
 
