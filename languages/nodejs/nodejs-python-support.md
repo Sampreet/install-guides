@@ -4,7 +4,9 @@
 
 ## Installation
 
-### Node.js and Node Package Manager
+### On Windows/Linux/MacOSX/Raspbian
+
+#### Node.js and Node Package Manager
 
 [![npm](https://img.shields.io/npm/v/node?label=node&style=flat-square)](https://github.com/nodejs/node)
 [![npm](https://img.shields.io/npm/v/npm?style=flat-square)](https://github.com/npm/npm)
@@ -15,7 +17,7 @@
 
 A complete installation guide for Node.js and Node Package Manager is available in [this link](https://github.com/Sampreet/install-guides/blob/master/languages/nodejs/nodejs-npm.md).
 
-### Python via Anaconda/Miniconda Distribution
+#### Python via Anaconda/Miniconda Distribution
 
 [![Conda](https://img.shields.io/conda/v/conda-forge/python?style=flat-square)](https://github.com/python/cpython)
 ![Conda](https://img.shields.io/conda/dn/conda-forge/python?style=flat-square)
@@ -26,7 +28,7 @@ A complete installation guide for Python via the Anaconda/Miniconda Distribution
 
 ## Configuration
 
-### Raspbian
+### On Raspbian
 
 Set the python environment to the installed version of Python by running:
 

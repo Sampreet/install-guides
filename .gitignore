@@ -1,4 +1,7 @@
 # temporary files
-
 temp*
 *.tmp
+
+# vscode 
+.vs
+.vscode

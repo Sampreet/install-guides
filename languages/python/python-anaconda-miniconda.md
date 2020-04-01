@@ -76,8 +76,4 @@ To remove a package, use the following command by replacing ```package``` with t
 conda remove package
 ```
 
-## Python Environments
-
-<!-- TODO -->
-
 
