@@ -16,11 +16,14 @@
 [![GitHub package.json version](https://img.shields.io/github/package-json/v/Microsoft/vscode?style=flat-square)](https://github.com/microsoft/vscode)
 ![GitHub](https://img.shields.io/github/license/Microsoft/vscode?style=flat-square)
 
-*Visual Studio Code* (VSCode) is an open-source, highly-customizable and versatile source-code editor developed by Microsoft which supports debugging, version control, syntax highlighting, intelligent code completion, snippets, and code refactoring. Download the appropriate setup file for your operating system (Windows/Linux/MacOSX) from the [official page](https://code.visualstudio.com/download) and install. That's it!
+*Visual Studio Code* (VSCode) is an open-source, highly-customizable and versatile source-code editor developed by Microsoft which supports debugging, version control, syntax highlighting, intelligent code completion, snippets, and code refactoring. Download the appropriate setup file for your operating system (Windows/Linux/MacOSX) from the [official page](https://code.visualstudio.com/download) and install. Easy!
 
 ### Microsoft's Python Extension
 
-Install the latest version of the extension Python from VSCode's Marketplace, the last icon on VSCode's *activity bar* (left edge). It usaully stays at the top with nearly 20M downloads:
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/Microsoft/vscode-python?style=flat-square)](https://github.com/microsoft/vscode)
+![GitHub](https://img.shields.io/github/license/Microsoft/vscode-python?style=flat-square)
+
+*Python* extension for VSCode by Microsoft provides a rich support for the language including a whole bundle of features for easy execution of Python scripts. Install the latest version of this extension from VSCode's Marketplace, the last icon on VSCode's *activity bar* (left edge). It usaully stays at the top with nearly 20M downloads:
 
 ![Python Extension](https://raw.githubusercontent.com/Sampreet/install-guides/master/editors/screenshots/vscode-python-marketplace.png)
 
@@ -40,18 +43,18 @@ Save the file inside a folder (say, ```test```). Now, on the file explorer on VS
 
 ### Selecting the Python Environment
 
-Whenever any ```.py``` file is selected, VSCode's Python extension loads automatically. Select the corresponding ```conda``` environment by clicking on the text mentioning the default ```python``` environment at the bottom left corner of the VSCode window:
+Whenever any ```.py``` file is selected, VSCode's Python extension loads automatically. Select the corresponding ```conda``` environment by clicking on the text mentioning the current ```python``` interpreter at the bottom left corner of the VSCode window:
 
 ![Python Environment](https://raw.githubusercontent.com/Sampreet/install-guides/master/editors/screenshots/vscode-python-env.png)
 
 ### Running Python Files
 
-Right click the ```.py``` file in the VSCode file explorer to open the context menu. Select ```Run Python File in Terminal```. This will open a new terminal inside VSCode, activate the environment and execute the file there:
+Right click the ```.py``` file in the VSCode file explorer to open the context menu. Select ```Run Python File in Terminal```. This will open a new terminal inside VSCode, activate the selected Python environment and execute the file there:
 
 ![Python File Execution](https://raw.githubusercontent.com/Sampreet/install-guides/master/editors/screenshots/vscode-python-file-exec.png)
 
 ### Opening IPython/Jupyter Notebooks
 
-Create a IPython/Jupyter Notebook file (say, ```notebook.ipynb```) and click on the ```.ipynb``` file in the VSCode file explorer. The Jupyter server will load automatically with all the options to insert/run cells, stop/restart kernel, etc. Markdown and Python scripts can be toggled using the ```M↓``` and ```{}``` options on top of each cell. Hit ```Shift+Enter``` to execute a cell. Python outputs are displayed below the cell upon execution:
+Create a IPython/Jupyter Notebook file (say, ```notebook.ipynb```) and click on the ```.ipynb``` file in the VSCode file explorer. The Jupyter server will load automatically with all the options to insert/run cells, stop/restart kernel, etc displayed on a top panel. Markdown and Python scripts can be toggled by using the ```M↓``` and ```{}``` options on top of each cell. Hit ```Shift+Enter``` to execute a cell. Python outputs are displayed below the cell upon execution:
 
 ![Jupyter Notebook](https://raw.githubusercontent.com/Sampreet/install-guides/master/editors/screenshots/vscode-python-jupyter-nb.png)
